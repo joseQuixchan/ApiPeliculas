@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2Ke34SWBpH8M02zbQNDeB6QT01iTHdg9Fy3f5PFZ+CPLxL/4k/ngGR3wBvaay9qG7SeqrweOsY4QjEMDG+Ws0g==",
+  "dgSpecHash": "tLtallzzK7EWC/OynGsfGbYghlXgRV6/tdoD6KYdInMjYuDQxlDyP+xZr2/zhRsv0r7H+rFW10xhOKGjQWP1Cg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JoseQuixchan\\Documents\\Github\\ProyectoApiPeliculas\\ApiPeliculas\\ApiPeliculas\\ApiPeliculas.csproj",
+  "projectFilePath": "C:\\Users\\JoseQuixchan\\Documents\\Github\\ApiPeliculas\\ApiPeliculas\\ApiPeliculas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JoseQuixchan\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\JoseQuixchan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\JoseQuixchan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\JoseQuixchan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\JoseQuixchan\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

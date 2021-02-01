@@ -1,6 +1,8 @@
 using ApiPeliculas.Data;
+using ApiPeliculas.PeliculaMapper;
 using ApiPeliculas.Repository;
 using ApiPeliculas.Repository.IRepository;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,7 +32,14 @@ namespace ApiPeliculas
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AplicationDbContext>(Options => Options.UseSqlServer(Configuration.GetConnectionString("DeveloperConnection")));
+
+
             services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+
+            services.AddScoped<IPeliculaRepository, PeliculaRepository>();
+
+            services.AddAutoMapper(typeof(PeliculasMappers));
+
             services.AddControllers();
         }
 

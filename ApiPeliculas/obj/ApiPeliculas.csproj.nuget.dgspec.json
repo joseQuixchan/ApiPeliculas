@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoseQuixchan\\Documents\\Github\\ProyectoApiPeliculas\\ApiPeliculas\\ApiPeliculas\\ApiPeliculas.csproj": {}
+    "C:\\Users\\JoseQuixchan\\Documents\\Github\\ApiPeliculas\\ApiPeliculas\\ApiPeliculas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoseQuixchan\\Documents\\Github\\ProyectoApiPeliculas\\ApiPeliculas\\ApiPeliculas\\ApiPeliculas.csproj": {
+    "C:\\Users\\JoseQuixchan\\Documents\\Github\\ApiPeliculas\\ApiPeliculas\\ApiPeliculas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoseQuixchan\\Documents\\Github\\ProyectoApiPeliculas\\ApiPeliculas\\ApiPeliculas\\ApiPeliculas.csproj",
+        "projectUniqueName": "C:\\Users\\JoseQuixchan\\Documents\\Github\\ApiPeliculas\\ApiPeliculas\\ApiPeliculas.csproj",
         "projectName": "ApiPeliculas",
-        "projectPath": "C:\\Users\\JoseQuixchan\\Documents\\Github\\ProyectoApiPeliculas\\ApiPeliculas\\ApiPeliculas\\ApiPeliculas.csproj",
+        "projectPath": "C:\\Users\\JoseQuixchan\\Documents\\Github\\ApiPeliculas\\ApiPeliculas\\ApiPeliculas.csproj",
         "packagesPath": "C:\\Users\\JoseQuixchan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoseQuixchan\\Documents\\Github\\ProyectoApiPeliculas\\ApiPeliculas\\ApiPeliculas\\obj\\",
+        "outputPath": "C:\\Users\\JoseQuixchan\\Documents\\Github\\ApiPeliculas\\ApiPeliculas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JoseQuixchan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
